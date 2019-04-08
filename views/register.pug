@@ -1,0 +1,9 @@
+extends layout/layout.pug
+block content
+    h1 Register
+    form(action='add-child', method='post')
+        input(type="text", name="user_name")
+        input(type="text", name="user_email")
+        input(type="password", name="user_password")
+        inut(type="password", name="user_confirm_password")
+        input(type="submit", value="submit")

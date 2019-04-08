@@ -1,0 +1,6 @@
+extends layout/layout.pug
+                                            block content
+                                                h1 #{list.name}
+                                                form(action='add-child', method='post')
+                                                    input(type="text", name="child_name")
+                                                    input(type="submit", value="submit")

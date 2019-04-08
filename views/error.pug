@@ -1,0 +1,4 @@
+extends layout/layout.pug
+block content
+    h1 `${error.message} - Status: ${error.status}`
+    pre.stack-trace = div #{error.stack}
